@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-primary text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-lg transition-all duration-300 hover:transform hover:scale-105;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-primary hover:bg-accent/90;
+  }
+
+  .btn-outline {
+    @apply border-2 border-accent text-accent hover:bg-accent hover:text-primary;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-white opacity-50 hover:opacity-100 transition-opacity !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  @apply text-2xl md:text-3xl !important;
+}
