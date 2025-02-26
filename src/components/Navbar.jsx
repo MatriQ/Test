@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,9 +53,9 @@ const Navbar = () => {
               className="text-gray-300 hover:text-white"
             >
               {isOpen ? (
-                <XIcon className="h-6 w-6" />
+                <XMarkIcon className="h-6 w-6" />
               ) : (
-                <MenuIcon className="h-6 w-6" />
+                <Bars3Icon className="h-6 w-6" />
               )}
             </button>
           </div>

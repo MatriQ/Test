@@ -8,7 +8,7 @@
 - 全屏幻灯片展示作品，增加直观 CTA 按钮
 - 瀑布流作品集布局
 - 个性化关于我页面
-- 简洁的联系表单
+- 简洁的联系表单和反馈功能
 
 ## 技术架构
 - 前端：React + TailwindCSS + Framer Motion
@@ -22,4 +22,6 @@
 - ⌛️ step-3：完善和部署
 - ✅ custom-step-1：修正生产构建过程中找不到Gallery页面的错误
 - ✅ custom-step-2：修正生产构建过程中找不到About/Contact页面的错误
-- ✅ custom-step-3：改进首页UI设计，增加“查看作品集”按钮
+- ✅ custom-step-3：改进首页UI设计，增加"查看作品集"按钮
+- ✅ custom-step-4：修复Heroicons版本导入错误
+- ✅ custom-step-5：添加联系页面反馈表单功能 (user custom step)
